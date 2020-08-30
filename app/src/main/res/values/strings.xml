@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Covid19 Tracker</string>
+    <string name="home_item">Home</string>
+    <string name="analytics_item">Analytics</string>
+    <string name="chart_item">Charts</string>
+    <string name="advices_item">Advices</string>
+    <string name="feel_sick">If you feel sick with
+         any of the symptoms of covid-19, please call YAQADA
+         or the emergency immediately for help.</string>
+    <string name="faq_title">Frequently Asked Questions</string>
+    <string name="faq_description">Everything you need to know</string>
+    <string name="Protect">Protect yourself</string>
+    <string name="see_how">See how can you protect yourself and your family from covid-19</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="charts_title">Charts</string>
+    <string name="wear_mask">Wear the protective mask before going out</string>
+    <string name="wash_hands">Wash your hands frequently for at least 20 seconds</string>
+    <string name="social_distancing">Avoid close contacts\n\n
+    Avoid unnecessary collective gatherings</string>
+    <string name="dont_touch">Avoid touching your eyes, nose and mouth</string>
+    <string name="cleaning">Clean surfaces using soap and water, then use disinfectant.</string>
+    <string name="stay_home">Try to stay at home and don\'t go out unless it\'s necessary</string>
+    <string name="emergency">Call 0801004747, 141 or 300, in case of fever, cough and breathing difficulty</string>
+    <string name="are_you_feeling_sick">Are you feeling sick ?</string>
+    <string name="Main_title">Covid 19 Tracker</string>
+    <string name="statistics">Statistics</string>
+    <string name="prevention">Prevention</string>
+    <string name="faq">FAQ</string>
+</resources>

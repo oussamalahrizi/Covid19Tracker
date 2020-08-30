@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background_app_color">#473F97</color>
+    <color name="white">#FFFFFF</color>
+    <color name="call_now_card">#FF4C58</color>
+    <color name="affected">#FFB259</color>
+    <color name="Recovered">#4CD97B</color>
+    <color name="Active">#4DB5FF</color>
+    <color name="serious">#9059FF</color>
+    <color name="emergency">#4C79FF</color>
+    <color name="prevention">#0D1333</color>
+</resources>

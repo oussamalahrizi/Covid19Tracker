@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple_bg_notrounded"
+    tools:context=".analytics">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_above="@id/bottom_nav_bar"
+        android:background="@drawable/purple_bg_notrounded">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="14dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/background_app_color"
+                        android:fontFamily="@font/graphik_bold"
+                        android:text="@string/Main_title"
+                        android:textColor="@color/white"
+                        android:textSize="26sp" />
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:rowCount="1"
+                        android:columnCount="2">
+                        <TextView
+                            android:layout_columnWeight="1"
+                            android:layout_width="0dp"
+                            android:layout_rowWeight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/background_app_color"
+                            android:fontFamily="@font/graphik_medium"
+                            android:text="@string/statistics"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+                        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                            android:id="@+id/spinner"
+                            android:textAlignment="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:background="@color/background_app_color"
+                            android:fontFamily="@font/graphik_medium"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+                    </GridLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/current_country"
+                        android:textAlignment="textStart"
+                        android:background="@color/background_app_color"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"/>
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/tab_bg"
+                        app:tabBackground="@drawable/selector"
+                        app:tabRippleColor="@android:color/transparent"
+                        app:tabIndicatorHeight="0dp"
+                        app:tabMode="fixed"
+                        app:tabSelectedTextColor="@color/prevention" />
+                </LinearLayout>
+                <androidx.viewpager.widget.ViewPager
+                    android:paddingTop="14dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:id="@+id/viewpager_general"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cnb_menuResource="@menu/menu_nav_bar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        app:cnb_radius="10dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_rounded"
+        android:id="@+id/bottom_nav_bar"/>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home_item"
+        android:icon="@drawable/round_home"
+        app:cnb_backgroundColor="@color/background_app_color"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/analytics"
+        android:title="@string/analytics_item"
+        android:icon="@drawable/baseline_dashboard_black_24dp"
+        app:cnb_backgroundColor="@color/background_app_color"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/charts"
+        android:title="@string/chart_item"
+        android:icon="@drawable/baseline_insert_chart_black_24dp"
+        app:cnb_backgroundColor="@color/background_app_color"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/advices"
+        android:title="@string/advices_item"
+        android:icon="@drawable/round_advices"
+        app:cnb_backgroundColor="@color/background_app_color"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"
+        />
+</menu>
